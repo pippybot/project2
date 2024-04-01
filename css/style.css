@@ -102,12 +102,12 @@ footer {
   text-align: left;
 }
 
-/* Series Page */
-#series {
+/* Dogs Page */
+#dogs {
   background-color: #1e1e1e;
 }
 
-#series section {
+#dogs section {
   background-color: #252526;
   text-align: center;
 }
@@ -132,8 +132,8 @@ footer {
   color: #ff4433;
 }
 
-/* Series Page */
-#series h1, #series h2, #series h3 {
+/* Dogs Page */
+#dogs h1, #dogs h2, #dogs h3 {
   font-family: 'Verdana', sans-serif;
 }
 
