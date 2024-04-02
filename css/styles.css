@@ -1,0 +1,308 @@
+body {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex direction: column;
+	min-height: 100vh;
+}
+
+#header {
+	text-align: center;
+	background-image: url("..images/gradient_back.jpg")
+	background-repeat: round;
+	background-position: center;
+	background-size: cover;
+	width: 100%
+	padding: 1px;
+}
+
+#header h1 {
+	position: relative;
+	font-family: 'KBQuietStories', sans-serif;
+	color: white;
+}
+
+#main-nav {
+	float: left;
+	text-align: center;
+	width: 100%;
+	background-image: url("..images/gradient_back.jpg")
+}
+
+#main-nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: left;
+	position: relative;
+	left: 50%;
+}
+
+#main-nav ul li {
+	float: left;
+	position: relative;
+	right: 50%;
+	font-size: larger;
+}
+
+#main-nav ul li a {
+	padding: 10px 25px;
+	display: block;
+	text-decoration: none;
+	color: #96C1F4;
+}
+
+#main-nav ul li a:hover {
+	background-color: #96C1F4
+	color: #CCCCFF
+}
+
+#about-info {
+	background-image url("..images/gradient_back.jpg")
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	flex: 1;
+}
+
+#personal-and-contact {
+	text-align: center;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+#personal-and-contact h2 {
+	font-size: larger;
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+#main-info {
+	font-family: 'Times New Roman', Times, serif;
+	width: 90%;
+	margin: 0 auto;
+	background-color: #A1BDFF;
+	border: 0.1em solid;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding-left: 1%;
+}
+
+#main-info h2 {
+	font-size: large;
+	font-weight: 600;
+	text-decoration: underline;
+}
+
+#main-info ol {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: left;
+	position: relative;
+	left: 50%;
+}
+
+#main-info ol li {
+	float: left;
+	position: relative;
+	right: 50%;
+	font-size: large;
+}
+
+#education ol {
+	list-style-type: circle;
+}
+
+ul li {
+	font-size: small;
+}
+
+#workhistory ol {
+	list-style-type: circle;
+}
+
+ul li {
+	font-size: small;
+}
+
+#certificates ol {
+	list-style-type: circle;
+}
+
+ul li {
+	font-size: small;
+}
+
+#awards ol {
+	list-style-type: circle;
+}
+
+ul li {
+	font-size: small;
+}
+
+#leadership ol {
+	list-style-type:circle
+}
+
+ul li {
+	font-size: small;
+}
+
+#volunteerwork ol {
+	list-style-type:circle
+}
+
+ul li {
+	font-size: small;
+}
+
+#skills ol {
+	list-style-type: line;
+}
+
+ul li {
+	font-size: small;
+}
+
+#languages ol {
+	list-style-type: circle;
+}
+
+ul li {
+	font-size: small;
+}
+
+#hobbies_interests ol {
+	list-style-type: circle;
+}
+
+ul li {
+	font-size: small;
+}
+
+#main-about {
+	background-image: url("../images/tech_image.jpg");
+	background-position: center;
+	height: 100%;
+	width: 100%;
+}
+
+#main-about h1 {
+	color: white;
+	font-size:2em;
+	font-family: "KBQuietStories", arial, sans-serif;
+}
+
+#main-about p {
+	color: lightgrey;
+	font-family: "KBQuietStories", arial, sans-serif;
+}
+
+#fun-facts, #gaming, #tattoos {
+	background-color: rgb(137, 177, 224);
+	border: 0.1em black;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+#gaming iframe {
+	width: 100%;
+	max-width: 600px;
+	height: 400px;
+}
+
+#tattoos img {
+	display: block;
+	margin: 0 auto;
+	border-radius: 4px;
+	max-width: 100%;
+	height: auto;
+}
+
+#main-about sub {
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+	font-family: "KBQuietStories", arial, sans-serif;
+	color: lightgrey;
+}
+
+#main-dog {
+	background-image: url("...images/outdoor_back.jpg");
+	display: block;
+	text-align: center
+	margin-top: 10px;
+	font-size: 2em;
+	font-family: "KBQuietStories", arial, sans-serif;
+	background-color: white;
+}
+
+#loki h1, p {
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 1em;
+	font-family: "KBQuietStories", arial, sans-serif;
+	background-color: white;
+}
+
+#loki img {
+	display: block;
+	margin: 0 auto;
+	border-radius: 8px;
+	border: 2px solid black;
+	max-width: 100%;
+	height: auto;
+}
+
+#bailey h1, p {
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 1em;
+	font-family: "KBQuietStories", arial, sans-serif;
+	background-color: white;
+}
+
+#bailey img {
+	display: block;
+	margin: 0 auto;
+	border-radius: 8px;
+	border: 2px solid black;
+	max-width: 100%;
+	height: auto;
+}
+
+#izzy h1, p {
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 1em;
+	font-family: "KBQuietStories", arial, sans-serif;
+	background-color: white;
+}
+
+#izzy img {
+	display: block;
+	margin: 0 auto;
+	border-radius: 8px;
+	border: 2px solid black;
+	max-width: 100%;
+	height: auto;
+}
+
+#three-dogateers h1, p {
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 1em;
+	font-family: "KBQuietStories", arial, sans-serif;
+	background-color: white;
+}
+
+#three-dogateers img {
+	display: block;
+	margin: 0 auto;
+	border-radius: 8px;
+	border: 2px solid black;
+	max-width: 100%;
+	height: auto;
+}
