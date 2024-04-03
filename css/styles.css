@@ -7,7 +7,7 @@ body {
 
 #header {
 	text-align: center;
-	background-image: url("..images/gradient_back.jpg");
+	background-image: url("../images/gradient_back.jpg");
 	background-repeat: round;
 	background-position: center;
 	background-size: cover;
@@ -25,7 +25,7 @@ body {
 	float: left;
 	text-align: center;
 	width: 100%;
-	background-image: url("..images/gradient_back.jpg");
+	background-image: url("../images/gradient_back.jpg");
 }
 
 #main-nav ul {
@@ -57,7 +57,7 @@ body {
 }
 
 #about-info {
-	background-image: url("..images/gradient_back.jpg");
+	background-image: url("../images/gradient_back.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -229,7 +229,7 @@ ul li {
 }
 
 #main-dog {
-	background-image: url("...images/outdoor_back.jpg");
+	background-image: url("../images/outdoor_back.jpg");
 	display: block;
 	text-align: center;
 	margin-top: 10px;
