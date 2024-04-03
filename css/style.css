@@ -65,7 +65,7 @@ nav li a:hover {
   font-family: 'Times New Roman', Times, serif;
 }
 
-#personal-and-contact h2 {
+#personal-and-contact h1, h2 {
 	text-align: center;
 	font-size: larger;
 	font-weight: 700;
