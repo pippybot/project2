@@ -22,18 +22,28 @@ h1, h2, li {
 
 /* Navigation CSS */
 nav {
-  text-align: center;
-  font-size: 1.2em;
-  font-family: "KBQuietStories", Times, sans-serif;
+	background-color: #333; /*Background Color of nav bar */
+	overflow: hiddem; /* Remove default list style */
+	margin: 0;
+	padding: 0; 
 }
 
-nav ul li a {
-  color: #96C1F4;
+nav ul {
+	list-style-type: none; /* Make list items float left to create horizontal layout */
 }
 
-nav ul li a:hover {
-  background-color: #4b6082;
-  color: #CCCCFF;
+nav li a {
+	display: block;
+	color: white; /* Text Color */
+	text-align: center;
+	padding: 14px 16px; /* Padding for each navigation item */
+	text-decoration: none;
+}
+
+/* Change appearance of links on hover */
+nav li a:hover {
+	background-color: #ddd; /* Background color on hover */
+	color: black; /* Text color on hover */
 }
 
 /* Body CSS */
