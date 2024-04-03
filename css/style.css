@@ -1,7 +1,7 @@
 /* Text CSS */
 p {
   font-size: 1.2em;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "KBQuietStories", Times, sans-serif;
   margin-bottom: 1em;
   padding: 0.1em;
 }
@@ -138,18 +138,18 @@ ul li {
 #main-about h1 {
   color: white;
   font-size: 2em;
-  font-family: "KBQuietStories", Arial, sans-serif;
+  font-family: "KBQuietStories", Times, sans-serif;
 }
 
 #main-about p {
   color: lightgrey;
-  font-family: "KBQuietStories", Arial, sans-serif;
+  font-family: "KBQuietStories", Times, sans-serif;
 }
 
 #main-about sub {
   display: block;
   text-align: center;
   margin-top: 10px;
-  font-family: "KBQuietStories", Arial, sans-serif;
+  font-family: "KBQuietStories", Times, sans-serif;
   color: lightgrey;
 }
