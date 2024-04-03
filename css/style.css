@@ -59,7 +59,7 @@ nav ul li a:hover {
   font-family: 'Times New Roman', Times, serif;
   width: 90%;
   margin: 0 auto;
-  background-color: #202057;
+  background-color: #2d2d70;
   border: 0.1em solid;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -130,9 +130,11 @@ ul li {
 
 #main-about {
   background-image: url("../images/tech_image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   background-position: center;
-  height: 100%;
-  width: 100%;
+  background-attachment: fixed;
+  flex: 1;
 }
 
 #main-about h1 {
@@ -152,4 +154,81 @@ ul li {
   margin-top: 10px;
   font-family: "KBQuietStories", Times, sans-serif;
   color: lightgrey;
+}
+
+#main-dog {
+	background-image: url("../images/outdoor_back.jpg");
+	background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  flex: 1;
+}
+
+#loki h1, p {
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 1em;
+	font-family: "KBQuietStories", arial, sans-serif;
+	background-color: white;
+}
+
+#loki img {
+	display: block;
+	margin: 0 auto;
+	border-radius: 8px;
+	border: 2px solid black;
+	max-width: 100%;
+	height: auto;
+}
+
+#bailey h1, p {
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 1em;
+	font-family: "KBQuietStories", arial, sans-serif;
+	background-color: white;
+}
+
+#bailey img {
+	display: block;
+	margin: 0 auto;
+	border-radius: 8px;
+	border: 2px solid black;
+	max-width: 100%;
+	height: auto;
+}
+
+#izzy h1, p {
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 1em;
+	font-family: "KBQuietStories", arial, sans-serif;
+	background-color: white;
+}
+
+#izzy img {
+	display: block;
+	margin: 0 auto;
+	border-radius: 8px;
+	border: 2px solid black;
+	max-width: 100%;
+	height: auto;
+}
+
+#three-dogateers h1, p {
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 1em;
+	font-family: "KBQuietStories", arial, sans-serif;
+	background-color: white;
+}
+
+#three-dogateers img {
+	display: block;
+	margin: 0 auto;
+	border-radius: 8px;
+	border: 2px solid black;
+	max-width: 100%;
+	height: auto;
 }
