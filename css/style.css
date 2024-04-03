@@ -60,7 +60,7 @@ nav li a:hover {
   flex: 1;
 }
 
-#personal-and-contact {
+#personal-and-contact p {
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
 }
@@ -88,15 +88,6 @@ nav li a:hover {
   text-decoration: underline;
 }
 
-#main-info ol {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  float: left;
-  position: relative;
-  left: 50%;
-}
-
 #main-info ol li {
   float: left;
   position: relative;
@@ -105,14 +96,14 @@ nav li a:hover {
 }
 
 /* Other section CSS */
-#workhistory ol,
-#certificates ol,
-#awards ol,
-#leadership ol,
-#volunteerwork ol,
-#skills ol,
-#languages ol,
-#hobbies_interests ol {
+#workhistory li,
+#certificates li,
+#awards li,
+#leadership li,
+#volunteerwork li,
+#skills li,
+#languages li,
+#hobbies_interests li {
   list-style-type: circle;
 }
 
