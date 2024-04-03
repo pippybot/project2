@@ -1,307 +1,155 @@
-body {
-	margin: 0;
-	padding: 0;
-	display: flex;
-	min-height: 100vh;
+/* Text CSS */
+p {
+  font-size: 1.2em;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 1em;
+  padding: 0.1em;
 }
 
-#header {
-	text-align: center;
-	background-image: url("../images/gradient_back.jpg");
-	background-repeat: round;
-	background-position: center;
-	background-size: cover;
-	width: 100%;
-	padding: 1px;
+h1, h2, li {
+  font-family: 'Times New Roman', Times, serif; /* Updated font */
+  margin-bottom: 1em;
+  padding: 0.1em;
 }
 
-#header h1 {
-	position: relative;
-	font-family: 'KBQuietStories', sans-serif;
-	color: white;
+#resume-header {
+  padding: 1em;
+  background-color: #333; /* Taken from the second file */
+  border-radius: 1em;
+  font-size: 2em;
+  color: white; /* Taken from the second file */
 }
 
-#main-nav {
-	float: left;
-	text-align: center;
-	width: 100%;
-	background-image: url("../images/gradient_back.jpg");
+/* Navigation CSS */
+nav {
+  text-align: center;
 }
 
-#main-nav ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	float: left;
-	position: relative;
-	left: 50%;
+nav ul li a {
+  color: #96C1F4; /* Taken from the second file */
 }
 
-#main-nav ul li {
-	float: left;
-	position: relative;
-	right: 50%;
-	font-size: larger;
+nav ul li a:hover {
+  background-color: #96C1F4; /* Taken from the second file */
+  color: #CCCCFF; /* Taken from the second file */
 }
 
-#main-nav ul li a {
-	padding: 10px 25px;
-	display: block;
-	text-decoration: none;
-	color: #96C1F4;
-}
-
-#main-nav ul li a: hover {
-	background-color: #96C1F4;
-	color: #CCCCFF;
-}
-
+/* Body CSS */
 #about-info {
-	background-image: url("../images/gradient_back.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	background-attachment: fixed;
-	flex: 1;
+  background-image: url("../images/gradient_back.jpg"); /* Taken from the second file */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  flex: 1;
 }
 
 #personal-and-contact {
-	text-align: center;
-	font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 #personal-and-contact h2 {
-	font-size: larger;
-	font-weight: 700;
-	text-decoration: underline;
+  font-size: larger;
+  font-weight: 700;
+  text-decoration: underline;
 }
 
 #main-info {
-	font-family: 'Times New Roman', Times, serif;
-	width: 90%;
-	margin: 0 auto;
-	background-color: #A1BDFF;
-	border: 0.1em solid;
-	margin-top: 1em;
-	margin-bottom: 1em;
-	padding-left: 1%;
+  font-family: 'Times New Roman', Times, serif;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #A1BDFF; /* Taken from the second file */
+  border: 0.1em solid;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding-left: 1%;
 }
 
 #main-info h2 {
-	font-size: large;
-	font-weight: 600;
-	text-decoration: underline;
+  font-size: large;
+  font-weight: 600;
+  text-decoration: underline;
 }
 
 #main-info ol {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	float: left;
-	position: relative;
-	left: 50%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: left;
+  position: relative;
+  left: 50%;
 }
 
 #main-info ol li {
-	float: left;
-	position: relative;
-	right: 50%;
-	font-size: large;
+  float: left;
+  position: relative;
+  right: 50%;
+  font-size: large;
 }
 
-#education ol {
-	list-style-type: circle;
-}
-
-ul li {
-	font-size: small;
-}
-
-#workhistory ol {
-	list-style-type: circle;
-}
-
-ul li {
-	font-size: small;
-}
-
-#certificates ol {
-	list-style-type: circle;
-}
-
-ul li {
-	font-size: small;
-}
-
-#awards ol {
-	list-style-type: circle;
-}
-
-ul li {
-	font-size: small;
-}
-
-#leadership ol {
-	list-style-type: circle;
-}
-
-ul li {
-	font-size: small;
-}
-
-#volunteerwork ol {
-	list-style-type: circle;
-}
-
-ul li {
-	font-size: small;
-}
-
-#skills ol {
-	list-style-type: line;
-}
-
-ul li {
-	font-size: small;
-}
-
-#languages ol {
-	list-style-type: circle;
-}
-
-ul li {
-	font-size: small;
-}
-
+/* Other section CSS */
+#workhistory ol,
+#certificates ol,
+#awards ol,
+#leadership ol,
+#volunteerwork ol,
+#skills ol,
+#languages ol,
 #hobbies_interests ol {
-	list-style-type: circle;
+  list-style-type: circle;
 }
 
 ul li {
-	font-size: small;
+  font-size: small;
 }
 
-#main-about {
-	background-image: url("../images/tech_image.jpg");
-	background-position: center;
-	height: 100%;
-	width: 100%;
-}
-
-#main-about h1 {
-	color: white;
-	font-size: 2em;
-	font-family: "KBQuietStories", arial, sans-serif;
-}
-
-#main-about p {
-	color: lightgrey;
-	font-family: "KBQuietStories", arial, sans-serif;
-}
-
-#fun-facts, #gaming, #tattoos {
-	background-color: rgb(137, 177, 224);
-	border: 0.1em black;
-	margin-top: 1em;
-	margin-bottom: 1em;
+/* Other section styling */
+#fun-facts,
+#gaming,
+#tattoos {
+  background-color: rgb(137, 177, 224); /* Taken from the second file */
+  border: 0.1em black;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 #gaming iframe {
-	width: 100%;
-	max-width: 600px;
-	height: 400px;
+  width: 100%;
+  max-width: 600px;
+  height: 400px;
 }
 
 #tattoos img {
-	display: block;
-	margin: 0 auto;
-	border-radius: 4px;
-	max-width: 100%;
-	height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 4px;
+  max-width: 100%;
+  height: auto;
+}
+
+#main-about {
+  background-image: url("../images/tech_image.jpg"); /* Taken from the second file */
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+#main-about h1 {
+  color: white;
+  font-size: 2em;
+  font-family: "KBQuietStories", Arial, sans-serif;
+}
+
+#main-about p {
+  color: lightgrey;
+  font-family: "KBQuietStories", Arial, sans-serif;
 }
 
 #main-about sub {
-	display: block;
-	text-align: center;
-	margin-top: 10px;
-	font-family: "KBQuietStories", arial, sans-serif;
-	color: lightgrey;
-}
-
-#main-dog {
-	background-image: url("../images/outdoor_back.jpg");
-	display: block;
-	text-align: center;
-	margin-top: 10px;
-	font-size: 2em;
-	font-family: "KBQuietStories", arial, sans-serif;
-	background-color: white;
-}
-
-#loki h1, p {
-	text-align: left;
-	margin-top: 10px;
-	margin-bottom: 1em;
-	font-family: "KBQuietStories", arial, sans-serif;
-	background-color: white;
-}
-
-#loki img {
-	display: block;
-	margin: 0 auto;
-	border-radius: 8px;
-	border: 2px solid black;
-	max-width: 100%;
-	height: auto;
-}
-
-#bailey h1, p {
-	text-align: left;
-	margin-top: 10px;
-	margin-bottom: 1em;
-	font-family: "KBQuietStories", arial, sans-serif;
-	background-color: white;
-}
-
-#bailey img {
-	display: block;
-	margin: 0 auto;
-	border-radius: 8px;
-	border: 2px solid black;
-	max-width: 100%;
-	height: auto;
-}
-
-#izzy h1, p {
-	text-align: left;
-	margin-top: 10px;
-	margin-bottom: 1em;
-	font-family: "KBQuietStories", arial, sans-serif;
-	background-color: white;
-}
-
-#izzy img {
-	display: block;
-	margin: 0 auto;
-	border-radius: 8px;
-	border: 2px solid black;
-	max-width: 100%;
-	height: auto;
-}
-
-#three-dogateers h1, p {
-	text-align: left;
-	margin-top: 10px;
-	margin-bottom: 1em;
-	font-family: "KBQuietStories", arial, sans-serif;
-	background-color: white;
-}
-
-#three-dogateers img {
-	display: block;
-	margin: 0 auto;
-	border-radius: 8px;
-	border: 2px solid black;
-	max-width: 100%;
-	height: auto;
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  font-family: "KBQuietStories", Arial, sans-serif;
+  color: lightgrey;
 }
