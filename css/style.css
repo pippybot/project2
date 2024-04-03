@@ -131,23 +131,20 @@ ul li {
 }
 
 #main-about {
-  background-image: url("../images/tech_image.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  flex: 1;
+	background-image: url("../images/tech_image.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	flex: 1;
 }
 
-#main-about h1 {
-  color: white;
-  font-size: 2em;
-  font-family: "KBQuietStories", Times, sans-serif;
-}
-
-#main-about p {
-  color: lightgrey;
-  font-family: "KBQuietStories", Times, sans-serif;
+#main-about h1, p {
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 1em;
+	font-family: "KBQuietStories", arial, sans-serif;
+	background-color: white;
 }
 
 #main-about sub {
