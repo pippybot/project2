@@ -162,10 +162,10 @@ ul li {
 
 #main-about sub {
   display: block;
-  text-align: center;
+  text-align: left;
   margin-top: 10px;
   font-family: "KBQuietStories", Times, sans-serif;
-  color: lightgrey;
+  color: black;
 }
 
 #main-dog {
