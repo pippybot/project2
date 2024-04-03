@@ -161,14 +161,6 @@ ul li {
 	background-color: white;
 }
 
-#main-about sub {
-  display: block;
-  text-align: left;
-  margin-top: 10px;
-  font-family: "KBQuietStories", Times, sans-serif;
-  color: black;
-}
-
 #main-dog {
 	background-image: url("../images/outdoor_back.jpg");
 	background-repeat: no-repeat;
