@@ -57,7 +57,7 @@ body {
 }
 
 #about-info {
-	background-image url("..images/gradient_back.jpg");
+	background-image: url("..images/gradient_back.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -142,7 +142,7 @@ ul li {
 }
 
 #leadership ol {
-	list-style-type:circle;
+	list-style-type: circle;
 }
 
 ul li {
@@ -150,7 +150,7 @@ ul li {
 }
 
 #volunteerwork ol {
-	list-style-type:circle;
+	list-style-type: circle;
 }
 
 ul li {
@@ -190,7 +190,7 @@ ul li {
 
 #main-about h1 {
 	color: white;
-	font-size:2em;
+	font-size: 2em;
 	font-family: "KBQuietStories", arial, sans-serif;
 }
 
