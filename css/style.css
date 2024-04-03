@@ -93,13 +93,11 @@ nav li a:hover {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  float: left;
   position: relative;
   left: 50%;
 }
 
 #main-info ol li {
-  float: left;
   position: relative;
   right: 50%;
   font-size: large;
