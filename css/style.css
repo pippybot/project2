@@ -23,7 +23,7 @@ h1, h2, li {
 /* Navigation CSS */
 nav {
 	background-color: #333; /*Background Color of nav bar */
-	overflow: hiddem; /* Remove default list style */
+	overflow: hidden; /* Remove default list style */
 	margin: 0;
 	padding: 0; 
 }
