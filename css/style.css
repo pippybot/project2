@@ -66,9 +66,10 @@ nav li a:hover {
 }
 
 #personal-and-contact h2 {
-  font-size: larger;
-  font-weight: 700;
-  text-decoration: underline;
+	text-align: center;
+	font-size: larger;
+	font-weight: 700;
+	text-decoration: underline;
 }
 
 #main-info {
