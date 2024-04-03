@@ -32,6 +32,10 @@ nav ul {
 	list-style-type: none; /* Make list items float left to create horizontal layout */
 }
 
+nav li {
+	float: left; /* Make list items float left to create a horizontal layout */
+}
+
 nav li a {
 	display: block;
 	color: white; /* Text Color */
