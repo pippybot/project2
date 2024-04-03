@@ -7,17 +7,17 @@ p {
 }
 
 h1, h2, li {
-  font-family: 'Times New Roman', Times, serif; /* Updated font */
+  font-family: 'Times New Roman', Times, serif;
   margin-bottom: 1em;
   padding: 0.1em;
 }
 
 #resume-header {
   padding: 1em;
-  background-color: #333; /* Taken from the second file */
+  background-color: #333;
   border-radius: 1em;
   font-size: 2em;
-  color: white; /* Taken from the second file */
+  color: white;
 }
 
 /* Navigation CSS */
@@ -26,17 +26,17 @@ nav {
 }
 
 nav ul li a {
-  color: #96C1F4; /* Taken from the second file */
+  color: #96C1F4;
 }
 
 nav ul li a:hover {
-  background-color: #96C1F4; /* Taken from the second file */
-  color: #CCCCFF; /* Taken from the second file */
+  background-color: #96C1F4;
+  color: #CCCCFF;
 }
 
 /* Body CSS */
 #about-info {
-  background-image: url("../images/gradient_back.jpg"); /* Taken from the second file */
+  background-image: url("../images/gradient_back.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -59,7 +59,7 @@ nav ul li a:hover {
   font-family: 'Times New Roman', Times, serif;
   width: 90%;
   margin: 0 auto;
-  background-color: #A1BDFF; /* Taken from the second file */
+  background-color: #A1BDFF;
   border: 0.1em solid;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -108,7 +108,7 @@ ul li {
 #fun-facts,
 #gaming,
 #tattoos {
-  background-color: rgb(137, 177, 224); /* Taken from the second file */
+  background-color: rgb(137, 177, 224);
   border: 0.1em black;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -129,7 +129,7 @@ ul li {
 }
 
 #main-about {
-  background-image: url("../images/tech_image.jpg"); /* Taken from the second file */
+  background-image: url("../images/tech_image.jpg");
   background-position: center;
   height: 100%;
   width: 100%;
