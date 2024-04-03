@@ -96,14 +96,14 @@ nav li a:hover {
 }
 
 /* Other section CSS */
-#workhistory li,
-#certificates li,
-#awards li,
-#leadership li,
-#volunteerwork li,
-#skills li,
-#languages li,
-#hobbies_interests li {
+#workhistory ol,
+#certificates ol,
+#awards ol,
+#leadership ol,
+#volunteerwork ol,
+#skills ol,
+#languages ol,
+#hobbies_interests ol {
   list-style-type: circle;
 }
 
